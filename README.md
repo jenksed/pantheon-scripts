@@ -1,8 +1,8 @@
 # Pantheon Scripts Collection!
 
 This repository contains various scripts I created to make tasks easier while managing WordPress sites on the Pantheon platform.
-[Pantheon User Related](https://github.com/jenksed/pantheon-scripts#user-scripts-platform-users)
-[WordPress Related](https://github.com/jenksed/pantheon-scripts#wordpress-related)
+* [Pantheon User Related](https://github.com/jenksed/pantheon-scripts#user-scripts-platform-users)
+* [WordPress Related](https://github.com/jenksed/pantheon-scripts#wordpress-related)
 
 # User scripts (platform users)
 
