@@ -1,0 +1,16 @@
+#!/usr/bin/env php
+<?php
+
+require_once __DIR__ . '/../vendor/autoload.php';
+
+use Symfony\Component\Console\Application;
+use PantheonCli\Command\MultidevCreateCommand;
+use PantheonCli\Command\AuthLoginCommand;
+
+$application = new Application('Pantheon CLI', '1.0.0');
+
+// Register commands
+$application->add(new AuthLoginCommand());
+$application->add(new MultidevCreateCommand());
+
+$application->run();
